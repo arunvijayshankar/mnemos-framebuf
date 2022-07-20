@@ -5,6 +5,20 @@ This repository is for the MnemOS Operating System.
 Currently, MnemOS is being rewritten as part of the v0.2 version. The current source may not
 match the [currently published documentation](https://mnemos.jamesmunns.com)!
 
+## Run the code
+
+```
+MELPOMENE_TRACE=trace cargo run
+```
+
+More details [in that comment](https://github.com/tosc-rs/mnemos/pull/15#issuecomment-1183739342).
+## Missing dependencies
+
+You may need to install extra dependencies for the embedded graphics sim. 
+
+```console
+sudo apt-get install libsdl2-dev
+```
 ## Folder Layout
 
 The project layout contains the following folders:
